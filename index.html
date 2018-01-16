@@ -272,6 +272,147 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/06/微信小程序之分享/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lynn">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/06/微信小程序之分享/" itemprop="url">微信小程序之webview分享</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-06T16:39:38+08:00">
+                2018-01-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/WX/" itemprop="url" rel="index">
+                    <span itemprop="name">微信开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/28/微信小程序开发/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -447,6 +588,9 @@ requestPayment: function (obj) {
 <li>微信支付后的回调通知，当wxpay页面调用<code>navigateBack</code>的时候回到index页面的时候webview 已经加载<code>https://xxxxxxxxxx/wx_isPayment.jhtml?orderId=&quot; + orderId + &#39;&amp;ispay=0&#39;</code> 这个网页，后台实现相关逻辑。通过orderId查询该订单是否支付成功。如果支付成功就网页重定向到支付成功的页面，如果支付失败还是待支付页面。用户依旧可以点击微信支付按钮进行微信支付。</li>
 <li>至此小程序的webview组件内网页就可以实现微信支付了。<h3 id="see-you-agin"><a href="#see-you-agin" class="headerlink" title="see you agin"></a>see you agin</h3>如果用原生小程序组件实现商城支付就没这么麻烦，但是工作量会非常巨大。直接把公众号的网页移植到小程序的webview里面，极大的节省了开发时间，对于小商户来说还是非常方便的。我们现在也算是偷懒把，毕竟投入不大、优先级不够、先弄个东西出来可以用，小程序没有一个向服务端的<code>wx.request</code>请求。但是我内心其实拒绝的。。。。。因为用户体验和产品角度都很low………</li>
 </ol>
+<h3 id="补上支付的截图嗯哼"><a href="#补上支付的截图嗯哼" class="headerlink" title="补上支付的截图嗯哼"></a>补上支付的截图嗯哼</h3><p>1 webview内的网页下单成功<br><img src="https://user-gold-cdn.xitu.io/2018/1/16/160fe6922ab7d04d?w=744&amp;h=1436&amp;f=png&amp;s=187345" alt="小程序webview页面下单成功"></p>
+<p>2 用户点击小程序webview的网页按钮的微信支付，调起微信支付</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/1/16/160fe6a31293a566?w=1080&amp;h=2160&amp;f=jpeg&amp;s=175094" alt="微信支付"></p>
 
           
         
@@ -794,7 +938,7 @@ requestPayment: function (obj) {
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -816,7 +960,7 @@ requestPayment: function (obj) {
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
